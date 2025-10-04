@@ -63,7 +63,7 @@ jobs:
           just install
 
       - name: Setup NodeJS with npm caching
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: "lts/jod"
           cache-dependency-path: "evm-e2e/package-lock.json"

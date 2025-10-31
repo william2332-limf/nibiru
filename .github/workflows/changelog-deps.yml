@@ -21,7 +21,7 @@ jobs:
           ref: ${{ github.head_ref }}
       # Helps keep your repository up-to-date when Dependabot updates your dependencies.
       # This step updates adds a line to the  "## Unreleased" section
-      - uses: dangoslen/dependabot-changelog-helper@v3
+      - uses: dangoslen/dependabot-changelog-helper@v4
         with:
           activationLabel: "dependabot"
           changelogPath: "./CHANGELOG.md"
